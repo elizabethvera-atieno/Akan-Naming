@@ -17,3 +17,9 @@ h2{
     color:darkred;
     background-color: chocolate;
 }
+
+hr{
+    border-top: 10px solid black;
+    border-radius: 5px;
+
+}
