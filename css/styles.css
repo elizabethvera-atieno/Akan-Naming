@@ -1,3 +1,12 @@
 body{
     background-image: url("../images/bg.jpg");
 }
+
+h1{
+    text-align: center;
+    font-size: 3cm;
+    background-color: aqua;
+    color: darkred;
+    border: 0.5cm solid darkred;
+    font-style: italic;
+}
