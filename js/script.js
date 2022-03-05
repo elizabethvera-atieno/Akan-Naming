@@ -16,6 +16,10 @@ var month = document.getElementById("month").value;
 var birthDate = document.getElementById("date").value;
 var gender = document.getElementById("gender").value;
 
+
+
+
+
 // alerts
 if (month < 1 || month > 12){
     alert("Please enter a valid month, from 1 to 12! ");
@@ -26,11 +30,23 @@ if (month < 1 || month > 12){
 }
  
 // date calculation 
-var dayOfBirth = new Date('year' + '-' + 'month' + '-' + 'date');
+var dayOfBirth = new Date('${year}-${month}-${date}');
 var dateStr = dayOfBirth.toDateString();
-let birthDay = dayOfBirth.getDate()
+let birthDay = dayOfBirth.getDate();
 
-
+// gender
+if (gender === 'male'){
+    let yourName = maleNames[birthDay];
+    let output = document.getElementById("output");
+    output.innerHTML = "Your were born on " + dateStr + ". Your Akan name is " + yourName + "."
+}else if (gender === 'female'){
+    let yourName = femaleNames[birthDay];
+    let output = document.getElementById("output");
+    output.innerHTML = "Your were born on " + dateStr + ". Your Akan name is " + yourName + "."
+}else{
+    let output = document.getElementById("output");
+    output.innerHTML = "Please select gender."
+}
 
 
 
