@@ -16,4 +16,14 @@ h1{
     flex:auto;
     text-align: center;
     justify-content: center;
+    color: green;
+    font-weight: 800;
+    font-size: 0.5cm;
+}
+
+h2{
+    color: green;
+    text-align: center;
+    font: weight 800px;
+    font-size: 1cm;
 }
