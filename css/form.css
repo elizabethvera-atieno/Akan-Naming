@@ -27,3 +27,10 @@ h2{
     font: weight 800px;
     font-size: 1cm;
 }
+
+#output{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1cm;
+}
