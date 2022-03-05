@@ -3,3 +3,11 @@ body{
     background-color:brown;
     background-size: 10cm;
 }
+
+h1{
+    color: black;
+    font-weight: 800;
+    font-size: 2cm;
+    text-align: center;
+    font-style: italic;
+}
