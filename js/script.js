@@ -24,6 +24,11 @@ if (month < 1 || month > 12){
 }else if (birthDate<1 || birthDate>31 ){
     alert("Please enter a valid date!");
 }
+ 
+// date calculation 
+var dayOfBirth = new Date('year' + '-' + 'month' + '-' + 'date');
+var dateStr = dayOfBirth.toDateString();
+let birthDay = dayOfBirth.getDate()
 
 
 
@@ -33,5 +38,4 @@ if (month < 1 || month > 12){
 
 
 
-
-}
+} 
