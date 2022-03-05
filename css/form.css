@@ -11,3 +11,9 @@ h1{
     text-align: center;
     font-style: italic;
 }
+
+#akanForm{
+    flex:auto;
+    text-align: center;
+    justify-content: center;
+}
