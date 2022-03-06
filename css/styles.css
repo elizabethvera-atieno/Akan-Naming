@@ -1,5 +1,7 @@
 body {
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/bg2.png");
+  background-color: brown;
+  background-size: 10cm;
 }
 
 h1 {
@@ -31,7 +33,7 @@ p {
   font-weight:bolder;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
-  background-color: white;
+
 }
 
 #image1{
