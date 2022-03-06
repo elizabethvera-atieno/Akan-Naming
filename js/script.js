@@ -1,5 +1,3 @@
-
-
 /// Input
 // Year of birth
 // Date of birth
@@ -11,10 +9,8 @@
 var form = document.getElementById("akanForm");
 form.addEventListener("submit", akan);
 
-
-
 function akan(e) {
-    e.preventDefault();
+  e.preventDefault();
   // variables
   var maleNames = [
     "Kwasi",
@@ -86,5 +82,3 @@ function akan(e) {
     output.innerHTML = "Please select gender.";
   }
 }
-
-
