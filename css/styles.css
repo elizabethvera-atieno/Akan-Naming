@@ -27,3 +27,13 @@ p {
   background-color: rgba(250, 235, 215, 0.486);
   font-weight: 400;
 }
+
+#image1{
+    float: left;
+    width: 30%;
+}
+
+#image2{
+    float:right;
+    width: 30%;
+}
