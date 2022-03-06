@@ -37,3 +37,11 @@ p {
     float:right;
     width: 30%;
 }
+
+h3{
+    color: white;
+    font-size: 1cm;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
