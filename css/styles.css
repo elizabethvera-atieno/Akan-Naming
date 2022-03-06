@@ -4,18 +4,21 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 3cm;
-  background-color: aqua;
+  font-size: 2cm;
+  background-color:saddlebrown;
   color: darkred;
   border: 0.5cm solid darkred;
   font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h2 {
   text-align: center;
   font-size: 1cm;
-  color: darkred;
-  background-color: chocolate;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  /* background-color: chocolate; */
 }
 
 hr {
@@ -24,24 +27,43 @@ hr {
 }
 
 p {
-  background-color: rgba(250, 235, 215, 0.486);
-  font-weight: 400;
+  color: black;
+  font-weight:bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  background-color: white;
 }
 
 #image1{
     float: left;
-    width: 30%;
+    width: 10%;
 }
 
 #image2{
     float:right;
-    width: 30%;
+    width: 10%;
 }
 
 h3{
-    color: white;
+    color:black;
     font-size: 1cm;
     font-weight: bolder;
-    font-style: italic;
+    /* font-style: italic; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color:chocolate; */
+}
+
+.page-footer{
+    background-color:saddlebrown;
+}
+
+#akan-link{
+    height: 50px;
+    width: 200px;
+    color: black;
+    background-color: saddlebrown;
+}
+
+.d-flex{
+    width: 70%;
 }

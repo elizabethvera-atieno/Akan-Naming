@@ -1,3 +1,5 @@
+
+
 /// Input
 // Year of birth
 // Date of birth
@@ -6,10 +8,13 @@
 ///Output
 //Akan name and day born
 
-var form = document.getElementById("submit");
-form.addEventListener("click", akan);
+var form = document.getElementById("akanForm");
+form.addEventListener("submit", akan);
 
-function akan() {
+
+
+function akan(e) {
+    e.preventDefault();
   // variables
   var maleNames = [
     "Kwasi",
@@ -31,6 +36,7 @@ function akan() {
   ];
 
   var yob = document.getElementById("year").value;
+  console.log(yob);
   var month = document.getElementById("month").value;
   var birthDate = document.getElementById("date").value;
   var gender = document.getElementById("gender").value;
@@ -80,3 +86,5 @@ function akan() {
     output.innerHTML = "Please select gender.";
   }
 }
+
+
