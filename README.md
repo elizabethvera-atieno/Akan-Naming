@@ -24,7 +24,13 @@
  * CSS - used to style the pages
  * JavaScript - used to make the pages interactive
 ## BDD
- 
+ The user should:                                        
+ * Enter year of birth  
+ *Enter month of birth  
+ *Enter date of birth  
+ *Select gender 
+Submit  
+Project compares the inputs with the conditions set for the inputs and executes an alert to input correct details incase the details are not correct.If they are correct it matches the day of the week with a specific Akan Name and outputs it to the user with a personalized message.
 ## License
  MIT License
 Copyright (c) 2022 Elizabeth Vera
@@ -45,7 +51,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 [Go Back to the top](# My-portfolio)
 ## Live link
-* AKAN NAMING - [AKANNAMING]( https://elizabethvera-atieno.github.io/my-portfolio/)
+* AKAN NAMING - [AKANNAMING]( )
 
 ## Authors Info)
  * Github - [elizabethvera-atieno](https://github.com/elizabethvera-atieno)
