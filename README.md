@@ -51,7 +51,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 [Go Back to the top](# My-portfolio)
 ## Live link
-* AKAN NAMING - [AKANNAMING]( )
+* AKAN NAMING - [AKANNAMING](https://elizabethvera-atieno.github.io/Akan-Naming/)
 
 ## Authors Info)
  * Github - [elizabethvera-atieno](https://github.com/elizabethvera-atieno)
