@@ -1,30 +1,29 @@
-body{
-    background-image: url("../images/bg.jpg");
+body {
+  background-image: url("../images/bg.jpg");
 }
 
-h1{
-    text-align: center;
-    font-size: 3cm;
-    background-color: aqua;
-    color: darkred;
-    border: 0.5cm solid darkred;
-    font-style: italic;
+h1 {
+  text-align: center;
+  font-size: 3cm;
+  background-color: aqua;
+  color: darkred;
+  border: 0.5cm solid darkred;
+  font-style: italic;
 }
 
-h2{
-    text-align: center;
-    font-size: 1cm;
-    color:darkred;
-    background-color: chocolate;
+h2 {
+  text-align: center;
+  font-size: 1cm;
+  color: darkred;
+  background-color: chocolate;
 }
 
-hr{
-    border-top: 10px solid black;
-    border-radius: 5px;
-
+hr {
+  border-top: 10px solid black;
+  border-radius: 5px;
 }
 
-p{
-    background-color: rgba(250, 235, 215, 0.486);
-    font-weight:400;
+p {
+  background-color: rgba(250, 235, 215, 0.486);
+  font-weight: 400;
 }
